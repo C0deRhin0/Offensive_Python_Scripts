@@ -1,5 +1,5 @@
 # About
-This code creates a simple HTTP server using Python's `http.server` module. It serves a login page that mimics a legitimate login form for a service called "ADNU CEVAS" (Ateneo Certificate Validation System). The goal of the code is to capture user credentials (email and password) submitted through the form. When the user logs in, the captured credentials are printed to the console, and the user is redirected to an external website (Google).
+This code creates a simple HTTP server using Python's `http.server` module. It serves a login page that mimics a legitimate login form for a service called "ADNU CEVAS" (Ateneo Certificate Validation System, a web server personal project **I** made). The goal of the code is to capture user credentials (email and password) submitted through the form. When the user logs in, the captured credentials are printed to the console, and the user is redirected to an external website (Google).
 
 ---
 
