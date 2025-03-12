@@ -13,7 +13,7 @@ This code functions as a potential phishing tool. The key risks include:
 ---
 
 ## Code Block
-- **Server Setup** `hostName = "192.168.254.104"` – Sets the IP address to listen on.  `serverPort = 8443` – Defines the port number for the HTTP server.  
+- **Server Setup** `hostName = "localhost"` Sets the IP address to listen on.  `serverPort = 8443` – Defines the port number for the HTTP server.  
 - **do_GET()** Handles GET requests by serving an HTML-based login page. Uses inline CSS for styling and embeds Google Fonts to mimic a professional UI.  
 - **do_POST()** Handles POST requests to capture submitted login credentials. `parse_qs(post_data)` – Parses the form data to extract email and password. Logs the captured credentials using `print()` and redirects the user to Google.  
 - **Main Server Loop** Keeps the server running until terminated.  
