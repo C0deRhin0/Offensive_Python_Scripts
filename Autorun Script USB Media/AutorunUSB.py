@@ -8,8 +8,8 @@ icon = "chrome.ico"
 pwd = os.getcwd()
 usbdir = os.path.join(pwd, "USB")
 
-if os.path.isfile (exename):
-  os.remove (exename)
+if os.path.isfile(exename):
+  os.remove(exename)
 
 if os.path.exists("__pycache__"):
     shutil.rmtree("__pycache__")
