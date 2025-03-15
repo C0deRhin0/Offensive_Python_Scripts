@@ -12,9 +12,9 @@ The potential risks of this code include:
 ---
 
 ## Code Block
-### 1. **Clipboard Monitoring** The script opens the clipboard and retrieves its contents, monitoring for any copied text.
-### 2. **Regex-Based Email Detection** The script uses a regex pattern to identify if the clipboard content is an email address.
-### 3. **Clipboard Manipulation** If an email is detected, it clears the clipboard and replaces the content with the attacker’s email address.
+1. **Clipboard Monitoring** The script opens the clipboard and retrieves its contents, monitoring for any copied text.
+2. **Regex-Based Email Detection** The script uses a regex pattern to identify if the clipboard content is an email address.
+3. **Clipboard Manipulation** If an email is detected, it clears the clipboard and replaces the content with the attacker’s email address.
 
 ---
 
