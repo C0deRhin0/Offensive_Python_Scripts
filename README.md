@@ -16,6 +16,8 @@ Each script is accompanied by a detailed documentation file located in its respe
 
 ## ⚠️ Disclaimer  
 **All scripts in this repository are STRICTLY FOR EDUCATIONAL PURPOSES ONLY.**   
+**TEST IN CONTROLLED ENVIRONMENTS ONLY**
+**SCRIPTS IN THIS REPO ARE INTENTIONALLY CRAFTED TO BE WEAK AND INHERENTLY NON-MALICIOUS**
 These scripts are provided to educate users, security researchers, and developers about potential security vulnerabilities so that they can better understand and mitigate such threats. Any misuse of these scripts is strictly prohibited. The author is not responsible for any damages caused by the misuse of the code.
 
 ---
