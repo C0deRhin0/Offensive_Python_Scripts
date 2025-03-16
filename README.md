@@ -1,6 +1,6 @@
 # Offensive Python Scripts
 
-This repository contains a collection of **well-known** attacks implemented in Python specifically designed for **educational purposes** to demonstrate various offensive attack techniques. These scripts are intended to help casual users, security researchers, penetration testers, and ethical hackers understand how certain attack vectors work and how to protect against them.
+This repository contains a collection of **well-known** attacks/techniques implemented in Python specifically designed for **educational purposes** to demonstrate various offensive attack techniques. These scripts are intended to help casual users, security researchers, penetration testers, and ethical hackers understand how certain attack vectors work and how to protect against them.
 
 ---
 
